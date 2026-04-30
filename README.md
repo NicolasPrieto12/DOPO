@@ -1,6 +1,5 @@
 # Implementación de un Log de Errores
 
-Proyecto desarrollado para la asignatura DOPO.
 
 ## Autores
 
