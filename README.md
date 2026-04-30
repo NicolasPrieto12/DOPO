@@ -10,7 +10,7 @@
 
 ## Descripción
 
-Sistema de gestión de inventario en Java que permite agregar, buscar y eliminar productos. El proyecto implementa un manejo de excepciones centralizado y un sistema de registro de errores en archivos de log.
+En este mini sistema de gestión de inventario desarrolado en BlueJ en lenguaje java que permite agregar, buscar y eliminar productos. El proyecto implementa un manejo de excepciones centralizado y un sistema de registro de errores en archivos de log.
 
 ---
 
