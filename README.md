@@ -1,4 +1,4 @@
-# Inventario con Log de Errores
+# Implementación de un Log de Errores
 
 Proyecto desarrollado para la asignatura DOPO.
 
@@ -12,22 +12,6 @@ Proyecto desarrollado para la asignatura DOPO.
 ## Descripción
 
 Sistema de gestión de inventario en Java que permite agregar, buscar y eliminar productos. El proyecto implementa un manejo de excepciones centralizado y un sistema de registro de errores en archivos de log.
-
----
-
-## Estructura del proyecto
-
-```
-inventario-log/
-├── logs/
-│   ├── expected_errors_log.txt
-│   └── inventario_log.txt
-└── src/main/java/com/inventario/
-    ├── Producto.java
-    ├── Inventario.java
-    ├── InventarioException.java
-    └── Main.java
-```
 
 ---
 
@@ -68,11 +52,3 @@ La clase `Main` cubre los siguientes escenarios:
 4. Eliminar un producto existente
 5. Eliminar un producto que no existe — genera `PRODUCT_NOT_FOUND`
 6. Eliminar un producto de un inventario vacío — genera `EMPTY_INVENTORY`
-
----
-
-## Requisitos
-
-- Java 17
-- Maven
-- IntelliJ IDEA
